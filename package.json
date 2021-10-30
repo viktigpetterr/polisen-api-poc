@@ -1,0 +1,36 @@
+{
+  "name": "criminal-activity-malmo",
+  "description": "Visualises criminal activity in Malmö",
+  "version": "0.0.1",
+  "author": {
+    "name": "Viktor Pettersson",
+    "email": "viktor.grasljunga@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/viktigpetterr/criminal-activity-malmo",
+    "type": "git"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev vite",
+    "build:dev": "vite build",
+    "build:prod": "vite build --outDir ./public",
+    "serve": "vite preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.4",
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.55",
+    "vue": "^3.0.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "eslint": "^7.31.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "sass": "^1.35.2",
+    "vite": "^2.4.2"
+  }
+}
